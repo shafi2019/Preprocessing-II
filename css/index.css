@@ -168,6 +168,23 @@ img {
   width: 100%;
   margin: 0 auto;
 }
+.nav-class {
+  display: flex;
+  justify-content: center;
+  border-bottom: 2px dashed silver;
+  width: 100%;
+  margin-inline-end: 5%;
+  padding: 2%;
+}
+.nav-class nav {
+  display: flex;
+  text-align: center;
+  margin-left: 10%;
+}
+.nav-class nav a {
+  text-decoration: none;
+  margin-inline-end: 5%;
+}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
