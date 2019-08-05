@@ -173,17 +173,24 @@ img {
   justify-content: center;
   border-bottom: 2px dashed silver;
   width: 100%;
-  margin-inline-end: 5%;
   padding: 2%;
+}
+.nav-class h1 {
+  font-size: 4.5rem;
 }
 .nav-class nav {
   display: flex;
   text-align: center;
-  margin-left: 10%;
+  margin-inline-start: 18%;
+  padding-top: 1%;
 }
 .nav-class nav a {
   text-decoration: none;
-  margin-inline-end: 5%;
+  font-size: 1.6rem;
+  margin-inline-start: 2%;
+  width: 95px;
+  color: #212529;
+  font-weight: bold;
 }
 .footer {
   width: 100%;
@@ -195,6 +202,9 @@ img {
   color: #212529;
   font-size: 1.6rem;
   padding: 20px;
+}
+.home .top-img {
+  width: 100%;
 }
 .home .content-section {
   margin: 30px 0;
