@@ -5,6 +5,13 @@
     border-bottom: 2px dashed silver;
     width: 100%;
     padding: 2%;
+
+    @media @mobile {
+        width: 500px;
+        margin: 0;
+        text-align: center;
+        flex-direction: column;  
+    }
     
     h1{
         font-size: 4.5rem;
@@ -14,6 +21,13 @@
       text-align: center;
       margin-inline-start: 18%;
       padding-top: 1%;
+
+      @media @mobile {
+          padding-top: 2%;
+          margin: 0;
+          width: 100%;
+          
+      }
       
         a{
           text-decoration: none;
@@ -22,8 +36,14 @@
           width: 95px;
           color: @font-color;
           font-weight: bold;
-          
+
+          @media @mobile {
+              width: 100%;
+              margin: 0;
+        
           }
+          
+        }
     }
     
   }
